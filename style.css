@@ -1,13 +1,26 @@
+/* style.css */
+
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url('images/bg-desktop.svg'); /* Adjust the path accordingly */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/bg-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between; /* Adjust this value as needed */
+  align-items: center; /* Adjust this value as needed */
 }
 
-.mockup{
-    margin-top: 200px;
-    margin-left: 80px;
+.mockup {
+  margin-right: 80px; /* Adjust margin-right to create space between mockup and text */
+  margin-top: 200px;
+  margin-left: 80px;
+}
+
+.welcome-text {
+  color: black;
+  font-size: 23px;
+  text-align: left;
+  margin-right: 100px;
 }
