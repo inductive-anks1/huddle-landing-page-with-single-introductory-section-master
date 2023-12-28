@@ -22,5 +22,21 @@ body {
   color: black;
   font-size: 23px;
   text-align: left;
-  margin-right: 100px;
+  margin-right: 200px;
+}
+
+.login {
+  font-size: 18px; /* Adjust the font size as needed */
+  background-color: white;
+  color: #711DB0;
+  padding: 20px 80px; /* Adjust padding to increase button size */
+  margin-top: 40px;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.login:hover {
+  background-color: #C539B4; /* Change the background color on hover if desired */
+  color: white;
 }
